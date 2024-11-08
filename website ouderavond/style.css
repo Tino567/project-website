@@ -1,0 +1,461 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+  html {
+    font-size: 8px;
+    
+  }
+  body {
+    /* font-family:'Times New Roman', Times, serif; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+    
+  }
+  
+  nav {
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+    min-height: 10vh;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    background:   #000000;
+    justify-content: space-between;
+    max-width: 100%;
+  }
+  nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;  
+  }
+  nav li {
+    font-size: 2.5rem;
+    padding: 0 4rem 0 4rem;
+  }
+  nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+    
+    
+  }
+  Footer{
+    
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 5vh; /* 5% van de hoogte van het scherm */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+  .content {
+    flex: 1;
+}
+
+
+  .homeh1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 60px;
+    font-size: 40px;
+  }
+
+  .homep{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    text-align: center;
+    position: absolute;
+    top: 48%;
+    left: 35%;
+  }
+
+  .homeimg{
+position: absolute;
+left: 3%;
+top: 35%;
+width: 20%;
+
+  }
+
+  .homeimgg{
+position: absolute;
+left: 70%;
+width: 20%;
+top: 20%;
+
+  }
+
+  nav img {
+    width: 5vw;  
+  }
+
+  .colorcanvas{
+    color: #ea1414;
+  }
+
+  .imgcanvas{
+width: 30%;
+
+  }
+  .Duoimg{
+position: absolute;
+
+top: 40%;
+width: 40%;
+
+  }
+
+  .duoimg2{
+
+    width: 45%;
+    position: absolute;
+    left: 50%;
+    top: 37%;
+
+  }
+
+
+
+
+
+
+
+
+  * ul{
+    list-style-type: none;
+    
+    overflow: hidden;
+  
+  } */
+  
+  li{
+    float: left;
+    
+    
+  }
+  
+  li a { 
+    color: #E9E9E9;
+  
+    text-decoration: none;
+    text-align: center;
+    /* padding: 0.8rem 1rem; */
+    display: inline-block;
+  }
+  
+  .dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+  min-width: 14vw;
+  z-index: 1;
+  box-shadow: 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.2);
+  
+  }
+  .dropdown-content a {
+  color: #000000;
+  padding: 1rem 1rem;
+display: flex;
+  text-align: left;
+  
+  }
+  
+  .dropdown:hover .dropdown-content{
+    display: block;
+    background: #ffffff;
+  }
+
+  
+  .dropbtn:hover{
+    background: #ffffff; color: #000000;
+    
+  
+  }
+  
+  
+  
+  .dropbtn{
+    background-color: #000000;
+  margin: 0%;
+    padding-top: 10%;
+    font-weight: bold;
+  }
+
+  
+/* 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+.dropdown-contentt{
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+min-width: 14vw;
+z-index: 1;
+box-shadow: 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.2);
+
+}
+.dropdown-contentt a {
+color: #000000;
+padding: 1rem 1rem;
+display: flex;
+text-align: left;
+
+}
+
+.dropdownn:hover .dropdown-contentt{
+  display: block;
+  background: #ffffff;
+}
+
+
+.dropbtn:hover{
+  background: #ffffff; color: #000000;
+  
+
+}
+
+
+.dropbtnn{
+  background-color: #000000;
+margin: 0%;
+  padding-top: 10%;
+  font-weight: bold;
+}
+
+.canvas{
+  position: absolute;
+  left: 30%;
+  top: 20%;
+  font-size:35px;
+}
+.canavasp{
+  position: absolute;
+  left: 32%;
+  top: 50%;
+  font-size: 30px;
+}
+
+
+
+.ziekmeldenp{
+  font-size: 17px;
+}
+.ziekmeldenh1{
+  text-align: center;
+  font-size: 40px;
+
+}
+
+.ziekmeldn{
+  margin-left: 1%;
+}
+
+.imgeduarte{
+  position: absolute;
+  left: 1%;
+  top: 20%;
+  width: 35%;
+}
+
+.Eduarte{
+font-size: 30px;
+text-align: center;
+color: darkblue;
+
+}
+
+.imgbck{
+position: absolute;
+left: 85%;
+top: 100%;
+width: 10%;
+position: relative;
+}
+
+.homebck{
+position: absolute;
+width: 25%;
+
+left: 40%;
+top: 55%;
+}
+
+.eduartep{
+  position: absolute;
+  left: 40%;
+  top: 40%;
+  color: blue;
+  font-size: 20px;
+}
+
+.eduarteimgg{
+position: absolute;
+left: 39%;
+top: 10%;
+
+
+}
+
+
+.opleidingswijzerh1{
+  text-align: center;
+font-size: 30px;
+}
+ 
+.opleidingswijzerh2{
+  text-align: left;
+  font-size: 25px;
+  position: relative;
+  left: 3%;
+}
+
+.opleidingswijzerp{
+  text-align: left;
+  font-size: 20px;
+  position: relative;
+  left: 3%;
+}
+
+
+
+.feedback{
+text-align: left;
+}
+
+.feedbackTt{
+
+position: absolute;
+width: 500px;
+height: 250px;
+
+}
+
+.fbp{
+  margin-left: 1% ;
+}
+
+.feedbacknaam{
+
+  
+  position: absolute;
+  width: 250px;
+   text-align: left;
+}
+.feedbackleeftijd{
+
+
+  position: absolute;
+  width: 50px;
+  text-align: left;
+
+}
+
+.feedbackaan{
+
+position: absolute;
+width: 500px;
+height: 25px;
+}
+
+.feedbacksumbit{
+position: absolute;
+
+top: 90%;
+background-color: rgb(0, 0, 0);
+color: #E9E9E9;
+}
+
+.examenplan p{font-size: 15px;}
+.examenplan h2{ font-size: 20px;}
+.examenplan h1{font-size: 25px;}
+.examenplan{margin-left: 1%;}
+
+.ziekmeldend{margin-left: 1%;}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  position: absolute;
+  top: 70%;
+  font-size: 25px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: lef t;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+
+
+.feedbackx{
+  text-align: left;
+  }
+  
+  .feedbackTtx{
+  
+  position: absolute;
+  width: 500px;
+  height: 250px;
+  
+  }
+  
+  .fbpx{
+    margin-left: 66% ;
+    margin-top: -20%;
+  }
+  
+  .feedbacknaamx{
+  
+    
+    position: absolute;
+    width: 250px;
+     text-align: left;
+  }
+  .feedbackleeftijdx{
+  
+  
+    position: absolute;
+    width: 50px;
+    text-align: left;
+  
+  }
+  
+  .feedbackaanx{
+  
+  position: absolute;
+  width: 500px;
+  height: 25px;
+  }
+  
+  .feedbacksumbitx{
+  position: absolute;
+  
+  top: 90%;
+  background-color: rgb(0, 0, 0);
+  color: #E9E9E9;
+  }
+
+
+  .infort{
+text-align: center;
+font-size: 30px;
+top: 20%;
+position: absolute ;
+
+
+  }
